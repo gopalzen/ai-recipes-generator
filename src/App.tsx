@@ -5,10 +5,6 @@ import { Amplify } from "aws-amplify";
 import { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
 import outputs from "../amplify_outputs.json";
-import awsconfig from "../src/aws-exports.js";
-
-Amplify.configure(awsconfig);
-
 import "@aws-amplify/ui-react/styles.css";
 
 Amplify.configure(outputs);
